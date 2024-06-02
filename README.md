@@ -11,9 +11,11 @@
 ![Screenshot (1)]( https://github.com/BojanAleksov/8085---Zadaca9/blob/main/Slika%201%20(Zadaca9).png) 
 
 fosc =5MHz  t=0,2µsec  ts=0.4µsec
+
 2^14=16384 6.5 msec ;8156 може да брои max 6.5 msec
 
 TH,TL 16000 -> 6.4 msec ;ако TH и TL се наполнат со 16000d, 8156 ќе јавува интерапт на секои 6.4 msec
+
 6.4*156=1000ms=1 sec ;потребно е 156 пати 8155 да јави интерапт за да знаеме дека изминала 1 sec.
 
 **Developed by:**
